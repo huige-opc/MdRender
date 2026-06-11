@@ -1,0 +1,3 @@
+# 服务器配置
+SERVER_HOST = '0.0.0.0'
+SERVER_PORT = 10094

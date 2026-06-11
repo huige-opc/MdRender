@@ -1,0 +1,14 @@
+# 临时文件和目录
+__pycache__/
+uploads/
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
