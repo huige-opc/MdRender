@@ -76,7 +76,7 @@ MdRender/
 - 微信：HgAiAgent（扫码添加，拉你进交流群）
 - 邮箱：[szlihui801@gmail.com](mailto:szlihui801@gmail.com)
 
-![微信：HgAiAgent](docs/wechat.jpg)
+<img src="docs/wechat.png" width="200" alt="微信：HgAiAgent">
 
 ---
 
@@ -133,4 +133,4 @@ Feel free to reach out:
 - WeChat：HgAiAgent (scan the QR code)
 - Email：[szlihui801@gmail.com](mailto:szlihui801@gmail.com)
 
-![WeChat：HgAiAgent](docs/wechat.jpg)
+<img src="docs/wechat.png" width="200" alt="WeChat：HgAiAgent">
