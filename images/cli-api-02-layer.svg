@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="gorange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ED8936;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F6AD55;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gblue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7CAAFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gpurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8699FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="700" height="520" rx="14" fill="#F8F6F3"/>
+
+  <text x="350" y="38" text-anchor="middle" fill="#2D3748" font-size="18" font-weight="bold">🔍 揭秘：CLI 只是 API 的外衣</text>
+  <text x="350" y="60" text-anchor="middle" fill="#718096" font-size="13">商用 CLI 本身没有任何独立能力，全部封装自 API</text>
+
+  <!-- ========== 顶层：CLI ========== -->
+  <rect x="120" y="82" width="460" height="80" rx="14" fill="url(#gorange)" filter="url(#shadow)"/>
+  <text x="350" y="115" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">💻 CLI 命令行（外在界面）</text>
+  <text x="350" y="140" text-anchor="middle" fill="#FFF5EB" font-size="12">人直接打命令，简单好记 → 【lark meeting create】</text>
+
+  <!-- 向下箭头 + 封装二字 -->
+  <line x1="350" y1="162" x2="350" y2="192" stroke="#ED8936" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <polygon points="344,190 350,200 356,190" fill="#ED8936"/>
+  <rect x="275" y="168" width="150" height="26" rx="13" fill="#FED7AA" filter="url(#shadow)"/>
+  <text x="350" y="185" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">一层封装</text>
+
+  <!-- ========== 中层：封装了什么 ========== -->
+  <rect x="80" y="208" width="540" height="120" rx="14" fill="#fff" stroke="#ED8936" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="350" y="232" text-anchor="middle" fill="#C05621" font-size="14" font-weight="bold">⚙️ CLI 帮你搞定的 4 件事（你不用管）</text>
+
+  <rect x="105" y="248" width="115" height="38" rx="8" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="162" y="270" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">🔐 账号鉴权</text>
+  <text x="162" y="282" text-anchor="middle" fill="#ED8936" font-size="10">扫码登录/token</text>
+
+  <rect x="235" y="248" width="115" height="38" rx="8" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="292" y="270" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">🌐 网络请求</text>
+  <text x="292" y="282" text-anchor="middle" fill="#ED8936" font-size="10">HTTP/HTTPS</text>
+
+  <rect x="365" y="248" width="115" height="38" rx="8" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="422" y="270" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">⚠️ 异常报错</text>
+  <text x="422" y="282" text-anchor="middle" fill="#ED8936" font-size="10">自动捕获提示</text>
+
+  <rect x="495" y="248" width="115" height="38" rx="8" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="552" y="270" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">🔤 结果翻译</text>
+  <text x="552" y="282" text-anchor="middle" fill="#ED8936" font-size="10">机器码→人话</text>
+
+  <text x="350" y="312" text-anchor="middle" fill="#A0AEC0" font-size="11">↑ 全部藏在你看不见的底层 ↑</text>
+
+  <!-- 向下箭头 -->
+  <line x1="350" y1="328" x2="350" y2="358" stroke="#5B8DEF" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <polygon points="344,356 350,366 356,356" fill="#5B8DEF"/>
+  <rect x="275" y="336" width="150" height="26" rx="13" fill="#BEE3F8" filter="url(#shadow)"/>
+  <text x="350" y="353" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">底层 API</text>
+
+  <!-- ========== 底层：API ========== -->
+  <rect x="120" y="374" width="460" height="80" rx="14" fill="url(#gblue)" filter="url(#shadow)"/>
+  <text x="350" y="408" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">🔗 API 程序接口（真实能力）</text>
+  <text x="350" y="432" text-anchor="middle" fill="#EBF4FF" font-size="12">程序调用程序，7×24 小时自动运行，是所有自动化的地基</text>
+
+  <!-- 多合一示意 -->
+  <line x1="130" y1="464" x2="570" y2="464" stroke="#CBD5E0" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="155" y="470" width="80" height="30" rx="6" fill="#E9D8FD" filter="url(#shadow)"/>
+  <text x="195" y="490" text-anchor="middle" fill="#805AD5" font-size="11" font-weight="bold">创建会议API</text>
+  <line x1="235" y1="464" x2="260" y2="464" stroke="#805AD5" stroke-width="2"/>
+  <rect x="260" y="470" width="80" height="30" rx="6" fill="#FED7E2" filter="url(#shadow)"/>
+  <text x="300" y="490" text-anchor="middle" fill="#B83280" font-size="11" font-weight="bold">获取链接API</text>
+  <line x1="340" y1="464" x2="365" y2="464" stroke="#B83280" stroke-width="2"/>
+  <rect x="365" y="470" width="80" height="30" rx="6" fill="#FED7AA" filter="url(#shadow)"/>
+  <text x="405" y="490" text-anchor="middle" fill="#C05621" font-size="11" font-weight="bold">推送通知API</text>
+  <line x1="445" y1="464" x2="465" y2="464" stroke="#C05621" stroke-width="2"/>
+  <polygon points="458,460 470,464 458,468" fill="#1A365D"/>
+  <rect x="465" y="470" width="80" height="30" rx="6" fill="#C6F6D5" filter="url(#shadow)"/>
+  <text x="505" y="490" text-anchor="middle" fill="#276749" font-size="11" font-weight="bold">完成 ✅</text>
+
+  <!-- 底部说明 -->
+  <text x="350" y="515" text-anchor="middle" fill="#A0AEC0" font-size="11">💡 CLI 最大价值：一条命令自动串联多个 API，一键走完完整业务流程</text>
+</svg>

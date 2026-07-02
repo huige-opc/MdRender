@@ -70,6 +70,14 @@ MdRender/
 - **前端:** 原生 HTML + Marked.js + Prism.js
 - **图片存储:** 本地文件系统
 
+## 联系
+
+有问题或建议欢迎联系：
+- 微信：HgAiAgent（扫码添加，拉你进交流群）
+- 邮箱：[szlihui801@gmail.com](mailto:szlihui801@gmail.com)
+
+![微信：HgAiAgent](docs/wechat.png)
+
 ---
 
 # MdRender — Markdown Editor for WeChat Official Accounts
@@ -118,3 +126,11 @@ Visit `http://127.0.0.1:10094`
 - **Backend:** Python Flask
 - **Frontend:** Vanilla HTML + Marked.js + Prism.js
 - **Image Storage:** Local filesystem
+
+## Contact
+
+Feel free to reach out:
+- WeChat：HgAiAgent (scan the QR code)
+- Email：[szlihui801@gmail.com](mailto:szlihui801@gmail.com)
+
+![WeChat：HgAiAgent](docs/wechat.png)

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7CAAFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#68D391;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+  <rect width="600" height="540" rx="14" fill="#F8F6F3"/>
+
+  <text x="300" y="35" text-anchor="middle" fill="#2D3748" font-size="17" font-weight="bold">🤖 AI 自动匹配动效流程</text>
+
+  <!-- Step 1: User says -->
+  <rect x="130" y="60" width="340" height="50" rx="25" fill="url(#g1)" filter="url(#shadow)"/>
+  <text x="300" y="90" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">💬 你说：做一个 AI 自动处理任务的演示</text>
+
+  <line x1="300" y1="110" x2="300" y2="135" stroke="#5B8DEF" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="294,133 300,143 306,133" fill="#5B8DEF"/>
+
+  <!-- Step 2: Judge -->
+  <rect x="150" y="145" width="300" height="45" rx="10" fill="#EDF2F7" stroke="#5B8DEF" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="300" y="165" text-anchor="middle" fill="#5B8DEF" font-size="13" font-weight="bold">🧠 系统判断需要什么动效</text>
+  <text x="300" y="182" text-anchor="middle" fill="#718096" font-size="11">分析场景 → 匹配动效类型</text>
+
+  <line x1="300" y1="190" x2="300" y2="215" stroke="#5B8DEF" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="294,213 300,223 306,213" fill="#5B8DEF"/>
+
+  <!-- Step 3: Local library -->
+  <rect x="110" y="225" width="380" height="50" rx="10" fill="#fff" stroke="#48BB78" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="300" y="248" text-anchor="middle" fill="#48BB78" font-size="13" font-weight="bold">📂 第一步：查本地 Lottie 素材库</text>
+  <text x="300" y="266" text-anchor="middle" fill="#718096" font-size="11">有现成的？直接拿来用 ✅</text>
+
+  <line x1="300" y1="275" x2="300" y2="298" stroke="#48BB78" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="294,296 300,306 306,296" fill="#48BB78"/>
+
+  <!-- Step 4: Create -->
+  <rect x="90" y="308" width="420" height="50" rx="10" fill="#fff" stroke="#F56565" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="300" y="331" text-anchor="middle" fill="#F56565" font-size="13" font-weight="bold">⚡ 第二步：没有？用 HTML/CSS 自创</text>
+  <text x="300" y="349" text-anchor="middle" fill="#718096" font-size="11">简单动效（雷达扫描、加载圆环等）直接生成</text>
+
+  <line x1="300" y1="358" x2="300" y2="381" stroke="#F56565" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="294,379 300,389 306,379" fill="#F56565"/>
+
+  <!-- Step 5: Online -->
+  <rect x="70" y="391" width="460" height="50" rx="10" fill="#fff" stroke="#667EEA" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="300" y="414" text-anchor="middle" fill="#667EEA" font-size="13" font-weight="bold">🌐 第三步：还不够复杂？去在线素材库搜索</text>
+  <text x="300" y="432" text-anchor="middle" fill="#718096" font-size="11">LottieFiles / IconScout 下载复杂动效</text>
+
+  <line x1="300" y1="441" x2="300" y2="462" stroke="#667EEA" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="294,460 300,470 306,460" fill="#667EEA"/>
+
+  <!-- Step 6: Save -->
+  <rect x="130" y="472" width="340" height="50" rx="25" fill="url(#g2)" filter="url(#shadow)"/>
+  <text x="300" y="495" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">💾 用过的自动保存到本地 → 下次直接复用</text>
+</svg>

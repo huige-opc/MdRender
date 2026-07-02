@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="gorange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ED8936;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F6AD55;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gblue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7CAAFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gpurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8699FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="700" height="480" rx="14" fill="#F8F6F3"/>
+
+  <text x="350" y="38" text-anchor="middle" fill="#2D3748" font-size="18" font-weight="bold">CLI 和 API 核心差异</text>
+  <text x="350" y="60" text-anchor="middle" fill="#718096" font-size="13">一个是人跑腿，一个是机器互通</text>
+
+  <!-- 分隔线 -->
+  <line x1="350" y1="80" x2="350" y2="460" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- ========== 左侧：CLI ========== -->
+  <rect x="25" y="82" width="310" height="56" rx="28" fill="url(#gorange)" filter="url(#shadow)"/>
+  <text x="180" y="113" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">💻 CLI 命令行</text>
+
+  <!-- 场景描述 -->
+  <rect x="25" y="152" width="310" height="80" rx="12" fill="#fff" stroke="#ED8936" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="180" y="180" text-anchor="middle" fill="#C05621" font-size="13" font-weight="bold">👤 你亲自跑腿</text>
+  <text x="180" y="200" text-anchor="middle" fill="#718096" font-size="11">走到前台，亲口说一句需求</text>
+  <text x="180" y="218" text-anchor="middle" fill="#718096" font-size="11">前台当场处理，直接告诉你结果</text>
+
+  <!-- 特点 -->
+  <rect x="25" y="246" width="145" height="44" rx="10" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="97" y="265" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">✋ 手动触发</text>
+  <text x="97" y="282" text-anchor="middle" fill="#ED8936" font-size="10">人操作、一次一件</text>
+
+  <rect x="185" y="246" width="150" height="44" rx="10" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="260" y="265" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">👀 结果给人看</text>
+  <text x="260" y="282" text-anchor="middle" fill="#ED8936" font-size="10">清晰文字，直接读懂</text>
+
+  <rect x="25" y="304" width="145" height="44" rx="10" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="97" y="323" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">🧪 临时测试</text>
+  <text x="97" y="340" text-anchor="middle" fill="#ED8936" font-size="10">快速排错、单次办公</text>
+
+  <rect x="185" y="304" width="150" height="44" rx="10" fill="#FFF5EB" filter="url(#shadow)"/>
+  <text x="260" y="323" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">🎯 精准控制</text>
+  <text x="260" y="340" text-anchor="middle" fill="#ED8936" font-size="10">指哪打哪，随时停下</text>
+
+  <!-- 适用 -->
+  <rect x="25" y="362" width="310" height="38" rx="8" fill="#FED7AA" filter="url(#shadow)"/>
+  <text x="180" y="386" text-anchor="middle" fill="#C05621" font-size="12" font-weight="bold">✅ 适合：临时测试、快速排错、单次任务</text>
+
+  <!-- CLI 图标装饰 -->
+  <rect x="55" y="415" width="250" height="44" rx="8" fill="#EBF8FF" stroke="#5B8DEF" stroke-width="1" filter="url(#shadow)"/>
+  <text x="180" y="444" text-anchor="middle" fill="#1A365D" font-size="14" font-family="'Courier New',monospace">$ lark calendar list</text>
+
+  <!-- ========== 右侧：API ========== -->
+  <rect x="365" y="82" width="310" height="56" rx="28" fill="url(#gblue)" filter="url(#shadow)"/>
+  <text x="520" y="113" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">🔗 API 程序接口</text>
+
+  <!-- 场景描述 -->
+  <rect x="365" y="152" width="310" height="80" rx="12" fill="#fff" stroke="#5B8DEF" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="520" y="180" text-anchor="middle" fill="#2B6CB0" font-size="13" font-weight="bold">🤖 系统自动对接</text>
+  <text x="520" y="200" text-anchor="middle" fill="#718096" font-size="11">凌晨自动同步，两个系统自己对话</text>
+  <text x="520" y="218" text-anchor="middle" fill="#718096" font-size="11">全程静默运行，没人登录，没人点击</text>
+
+  <!-- 特点 -->
+  <rect x="365" y="246" width="145" height="44" rx="10" fill="#EBF4FF" filter="url(#shadow)"/>
+  <text x="437" y="265" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">⚡ 自动运行</text>
+  <text x="437" y="282" text-anchor="middle" fill="#5B8DEF" font-size="10">程序对接程序，无人值守</text>
+
+  <rect x="525" y="246" width="150" height="44" rx="10" fill="#EBF4FF" filter="url(#shadow)"/>
+  <text x="600" y="265" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">📦 批量并发</text>
+  <text x="600" y="282" text-anchor="middle" fill="#5B8DEF" font-size="10">同时处理成千上万请求</text>
+
+  <rect x="365" y="304" width="145" height="44" rx="10" fill="#EBF4FF" filter="url(#shadow)"/>
+  <text x="437" y="323" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">🔒 密钥鉴权</text>
+  <text x="437" y="340" text-anchor="middle" fill="#5B8DEF" font-size="10">Token 验证，代码里带密钥</text>
+
+  <rect x="525" y="304" width="150" height="44" rx="10" fill="#EBF4FF" filter="url(#shadow)"/>
+  <text x="600" y="323" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">🖥️ 结果给机器</text>
+  <text x="600" y="340" text-anchor="middle" fill="#5B8DEF" font-size="10">JSON 数据，普通人读不懂</text>
+
+  <!-- 适用 -->
+  <rect x="365" y="362" width="310" height="38" rx="8" fill="#BEE3F8" filter="url(#shadow)"/>
+  <text x="520" y="386" text-anchor="middle" fill="#2B6CB0" font-size="12" font-weight="bold">✅ 适合：批量自动化、机器人值守、系统打通</text>
+
+  <!-- API 图标装饰 -->
+  <rect x="395" y="415" width="250" height="44" rx="8" fill="#EBF8FF" stroke="#5B8DEF" stroke-width="1" filter="url(#shadow)"/>
+  <text x="520" y="444" text-anchor="middle" fill="#7CAAFF" font-size="13" font-family="'Courier New',monospace">{okr: get, status: ok}</text>
+
+  <!-- 底部箭头 -->
+  <line x1="180" y1="462" x2="295" y2="462" stroke="#48BB78" stroke-width="2"/>
+  <polygon points="290,458 300,462 290,466" fill="#1A365D"/>
+  <line x1="405" y1="462" x2="520" y2="462" stroke="#5B8DEF" stroke-width="2"/>
+  <polygon points="515,458 525,462 515,466" fill="#5B8DEF"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="gpurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8699FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="700" height="500" rx="14" fill="#F8F6F3"/>
+
+  <text x="350" y="38" text-anchor="middle" fill="#2D3748" font-size="18" font-weight="bold">🔥 为什么 DOS 黑屏命令，在 AI 时代逆袭？</text>
+  <text x="350" y="60" text-anchor="middle" fill="#718096" font-size="13">核心 4 大逻辑，看懂云端 AI 为什么偏爱命令行</text>
+
+  <!-- 中心：复古终端 -->
+  <rect x="260" y="190" width="180" height="130" rx="12" fill="#EBF8FF" stroke="#667EEA" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="270" y="200" width="160" height="28" rx="12" fill="#E2E8F0"/>
+  <circle cx="282" cy="214" r="5" fill="#FC8181"/>
+  <circle cx="297" cy="214" r="5" fill="#F6E05E"/>
+  <circle cx="312" cy="214" r="5" fill="#1A365D"/>
+  <text x="350" y="246" text-anchor="middle" fill="#1A365D" font-size="20" font-weight="bold" font-family="'Courier New',monospace">$ _</text>
+  <text x="350" y="274" text-anchor="middle" fill="#7CAAFF" font-size="11">1980s 老技术</text>
+  <text x="350" y="290" text-anchor="middle" fill="#667EEA" font-size="11" font-weight="bold">2025 AI 时代满血复活</text>
+
+  <!-- 原因1：左上 -->
+  <rect x="25" y="82" width="200" height="105" rx="14" fill="#E9D8FD" stroke="#805AD5" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="52" cy="110" r="20" fill="#805AD5" filter="url(#shadow)"/>
+  <text x="52" y="117" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">1</text>
+  <text x="138" y="100" text-anchor="middle" fill="#553C9A" font-size="13" font-weight="bold">🤖 AI 天生适配</text>
+  <text x="125" y="122" text-anchor="middle" fill="#6B46C1" font-size="11">很难模拟鼠标点击</text>
+  <text x="125" y="140" text-anchor="middle" fill="#6B46C1" font-size="11">完美识别单行文字指令</text>
+  <text x="125" y="158" text-anchor="middle" fill="#805AD5" font-size="10" font-weight="bold">文字 = AI 的母语</text>
+  <line x1="225" y1="187" x2="258" y2="220" stroke="#805AD5" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 原因2：右上 -->
+  <rect x="475" y="82" width="200" height="105" rx="14" fill="#FEEBC8" stroke="#DD6B20" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="502" cy="110" r="20" fill="#DD6B20" filter="url(#shadow)"/>
+  <text x="502" y="117" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">2</text>
+  <text x="588" y="100" text-anchor="middle" fill="#7B341E" font-size="13" font-weight="bold">💰 节省算力成本</text>
+  <text x="575" y="122" text-anchor="middle" fill="#C05621" font-size="11">不用处理 API 复杂鉴权</text>
+  <text x="575" y="140" text-anchor="middle" fill="#C05621" font-size="11">不用处理报错解析逻辑</text>
+  <text x="575" y="158" text-anchor="middle" fill="#DD6B20" font-size="10" font-weight="bold">大幅降低 AI 开销</text>
+  <line x1="475" y1="187" x2="442" y2="220" stroke="#DD6B20" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 原因3：左下 -->
+  <rect x="25" y="335" width="200" height="105" rx="14" fill="#BEE3F8" stroke="#2B6CB0" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="52" cy="363" r="20" fill="#2B6CB0" filter="url(#shadow)"/>
+  <text x="52" y="370" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">3</text>
+  <text x="138" y="353" text-anchor="middle" fill="#2A4365" font-size="13" font-weight="bold">☁️ 云端无图形界面</text>
+  <text x="125" y="375" text-anchor="middle" fill="#2B6CB0" font-size="11">绝大多数 AI 服务器</text>
+  <text x="125" y="393" text-anchor="middle" fill="#2B6CB0" font-size="11">没有桌面、没有鼠标</text>
+  <text x="125" y="411" text-anchor="middle" fill="#2B6CB0" font-size="10" font-weight="bold">只能靠命令行运行</text>
+  <line x1="225" y1="335" x2="258" y2="310" stroke="#2B6CB0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 原因4：右下 -->
+  <rect x="475" y="335" width="200" height="105" rx="14" fill="#C6F6D5" stroke="#276749" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="502" cy="363" r="20" fill="#276749" filter="url(#shadow)"/>
+  <text x="502" y="370" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">4</text>
+  <text x="588" y="353" text-anchor="middle" fill="#22543D" font-size="13" font-weight="bold">🎯 降低自动化门槛</text>
+  <text x="575" y="375" text-anchor="middle" fill="#276749" font-size="11">小白不需要懂代码</text>
+  <text x="575" y="393" text-anchor="middle" fill="#276749" font-size="11">依托 CLI 就能自动化</text>
+  <text x="575" y="411" text-anchor="middle" fill="#276749" font-size="10" font-weight="bold">人人都是 AI 操控者</text>
+  <line x1="475" y1="335" x2="442" y2="310" stroke="#276749" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 底部结论 -->
+  <rect x="120" y="458" width="460" height="34" rx="17" fill="url(#gpurple)" filter="url(#shadow)"/>
+  <text x="350" y="480" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">💡 人类喜欢好看的图形界面，但 AI 和机器，永远偏爱简洁纯粹的文字指令</text>
+</svg>

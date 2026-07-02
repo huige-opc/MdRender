@@ -1174,7 +1174,7 @@
             font-size: 16px !important;
             font-weight: bold;
             color: #0066cc !important;
-            margin: 30px 0 15px;
+            margin: 22px 0 22px;
             line-height: 1.5em;
             position: relative;
             display: block;
@@ -1188,7 +1188,7 @@
             font-size: 18px;
             font-weight: bold;
             color: #165ECA; /* 科技蓝 */
-            margin: 30px auto 15px;
+            margin: 22px auto 22px;
             line-height: 1.5em;
             display: block;
             padding: 0 40px;
@@ -1318,12 +1318,22 @@
             color: #666;
             margin-top: 10px;
         }
+
+        .preview-content.style-tech-blue div[style*="text-align: center"][style*="font-weight: bold"] {
+            color: #165ECA !important;
+            margin-bottom: 24px;
+        }
         
         .preview-content.style-fullstack-blue center {
             text-align: center;
             font-size: 15px;
             color: #666;
             margin-top: 10px;
+        }
+
+        .preview-content.style-fullstack-blue div[style*="text-align: center"][style*="font-weight: bold"] {
+            color: #0066cc !important;
+            margin-bottom: 24px;
         }
         
         /* 列表样式 */
@@ -1422,7 +1432,7 @@
             font-size: 16px !important;
             font-weight: bold;
             color: #E65C00 !important;
-            margin: 25px 0 12px;
+            margin: 20px 0 20px;
             line-height: 1.5em;
             border-bottom: 2px solid #FF8000;
             padding-bottom: 5px;
@@ -1484,6 +1494,11 @@
             line-height: 1.8em;
             font-size: 15px;
             color: #333;
+        }
+
+        .preview-content.style-hermes-orange div[style*="text-align: center"][style*="font-weight: bold"] {
+            color: #E65C00 !important;
+            margin-bottom: 24px;
         }
 
         .preview-content.style-hermes-orange blockquote {
@@ -1580,7 +1595,7 @@
             font-size: 16px !important;
             font-weight: bold;
             color: #1a1a1a !important;
-            margin: 25px 0 12px;
+            margin: 20px 0 20px;
             line-height: 1.5em;
             border-bottom: 1px solid #e0e0e0;
             padding-bottom: 5px;
@@ -1642,6 +1657,11 @@
             line-height: 1.8em;
             font-size: 15px;
             color: #1a1a1a;
+        }
+
+        .preview-content.style-minimal-black div[style*="text-align: center"][style*="font-weight: bold"] {
+            color: #1a1a1a !important;
+            margin-bottom: 24px;
         }
 
         .preview-content.style-minimal-black blockquote {
@@ -1714,6 +1734,11 @@
             border: none;
             border-top: 1px solid #e0e0e0;
             margin: 25px 0;
+        }
+
+        /* 第一个一级标题上方间距缩短（避免顶部太空） */
+        .preview-content h1:first-of-type {
+            margin-top: 10px !important;
         }
 
         /* 响应式设计 */
@@ -3975,8 +4000,8 @@ function hello() {
             // 公众号特定的处理 - 使用!important确保样式不被覆盖
             html = html
                 // 1. 标题样式 - h1:16px，其他:16px，居中，加粗，主题色颜色
-                .replace(/<h1>/g, '<h1 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:30px 0 15px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
-                .replace(/<h2>/g, '<h2 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:30px 0 15px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
+                .replace(/<h1>/g, '<h1 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:20px 0 15px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
+                .replace(/<h2>/g, '<h2 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:22px 0 22px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
                 .replace(/<h3>/g, '<h3 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:25px 0 12px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
                 .replace(/<h4>/g, '<h4 style="font-size:16px !important;font-weight:700 !important;text-align:center !important;margin:20px 0 10px !important;color:' + themeColor + ' !important;font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif !important;">')
                 // 2. 段落样式 - 使用!important（正文字体15px）
@@ -4110,6 +4135,9 @@ function hello() {
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .wechat-article h1:first-of-type {
+            margin-top: 10px !important;
         }
         .wechat-article blockquote {
             position: relative;

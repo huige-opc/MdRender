@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7C9AFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ED64A6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F687B3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7CAAFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#68D391;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+  <rect width="800" height="280" rx="14" fill="#F8F6F3"/>
+
+  <text x="400" y="35" text-anchor="middle" fill="#2D3748" font-size="17" font-weight="bold">Lottie → Hyperframes 打通链路</text>
+
+  <!-- Step 1: Lottie -->
+  <rect x="40" y="70" width="140" height="80" rx="10" fill="url(#g1)" filter="url(#shadow)"/>
+  <text x="110" y="100" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">🎨 Lottie 素材</text>
+  <text x="110" y="120" text-anchor="middle" fill="#E8E0FF" font-size="11">ai-bot.json</text>
+  <text x="110" y="137" text-anchor="middle" fill="#E8E0FF" font-size="11">设计师导出</text>
+
+  <line x1="180" y1="110" x2="220" y2="110" stroke="#667EEA" stroke-width="2"/>
+  <polygon points="218,104 228,110 218,116" fill="#667EEA"/>
+  <text x="200" y="100" text-anchor="middle" fill="#718096" font-size="10">播放</text>
+
+  <!-- Step 2: lottie-web -->
+  <rect x="235" y="70" width="140" height="80" rx="10" fill="url(#g2)" filter="url(#shadow)"/>
+  <text x="305" y="100" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">🔧 lottie-web</text>
+  <text x="305" y="120" text-anchor="middle" fill="#FFE8F0" font-size="11">播放器引擎</text>
+  <text x="305" y="137" text-anchor="middle" fill="#FFE8F0" font-size="11">渲染 SVG</text>
+
+  <line x1="375" y1="110" x2="415" y2="110" stroke="#ED64A6" stroke-width="2"/>
+  <polygon points="413,104 423,110 413,116" fill="#ED64A6"/>
+  <text x="395" y="100" text-anchor="middle" fill="#718096" font-size="10">注册</text>
+
+  <!-- Step 3: register -->
+  <rect x="430" y="70" width="160" height="80" rx="10" fill="url(#g3)" filter="url(#shadow)"/>
+  <text x="510" y="100" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">📋 window.__hfLottie</text>
+  <text x="510" y="120" text-anchor="middle" fill="#E0EEFF" font-size="11">登记给 Hyperframes</text>
+  <text x="510" y="137" text-anchor="middle" fill="#E0EEFF" font-size="11">统一调度</text>
+
+  <line x1="590" y1="110" x2="630" y2="110" stroke="#5B8DEF" stroke-width="2"/>
+  <polygon points="628,104 638,110 628,116" fill="#5B8DEF"/>
+  <text x="610" y="100" text-anchor="middle" fill="#718096" font-size="10">控制</text>
+
+  <!-- Step 4: Hyperframes -->
+  <rect x="645" y="70" width="130" height="80" rx="10" fill="url(#g4)" filter="url(#shadow)"/>
+  <text x="710" y="100" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">🎬 Hyperframes</text>
+  <text x="710" y="120" text-anchor="middle" fill="#D4F5E0" font-size="11">逐帧渲染</text>
+  <text x="710" y="137" text-anchor="middle" fill="#D4F5E0" font-size="11">输出视频</text>
+
+  <!-- Bottom result -->
+  <rect x="180" y="195" width="440" height="55" rx="12" fill="#EDF2F7" stroke="#5B8DEF" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="400" y="220" text-anchor="middle" fill="#5B8DEF" font-size="14" font-weight="bold">✅ 直接调用现成素材，不再从零写动画</text>
+  <text x="400" y="238" text-anchor="middle" fill="#718096" font-size="11">一套素材，演示页面和视频都能用</text>
+</svg>

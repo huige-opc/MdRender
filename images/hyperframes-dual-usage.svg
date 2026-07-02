@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="gblue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7CAAFF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="ggreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#68D391;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gcoral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F56565;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FC8181;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="320" rx="14" fill="#F8F6F3"/>
+
+  <text x="400" y="40" text-anchor="middle" fill="#2D3748" font-size="18" font-weight="bold">Hyperframes 双用途模式</text>
+  <text x="400" y="60" text-anchor="middle" fill="#718096" font-size="13">一份 HTML，两种用途</text>
+
+  <!-- Center: HTML -->
+  <rect x="310" y="90" width="180" height="60" rx="10" fill="url(#gblue)" filter="url(#shadow)"/>
+  <text x="400" y="117" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">📄 HTML 页面</text>
+  <text x="400" y="138" text-anchor="middle" fill="#EBF4FF" font-size="11">文字 + 动效 + 图表 + 交互</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="150" x2="400" y2="175" stroke="#5B8DEF" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="393,173 400,183 407,173" fill="#5B8DEF"/>
+
+  <!-- Split point -->
+  <circle cx="400" cy="190" r="6" fill="#CBD5E0"/>
+
+  <!-- Left branch: Preview -->
+  <line x1="400" y1="195" x2="400" y2="210" stroke="#5B8DEF" stroke-width="1.5"/>
+  <line x1="400" y1="210" x2="190" y2="230" stroke="#5B8DEF" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <polygon points="188,228 178,235 188,242" fill="#48BB78"/>
+  <rect x="80" y="232" width="220" height="70" rx="10" fill="#fff" stroke="#48BB78" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="190" y="260" text-anchor="middle" fill="#48BB78" font-size="14" font-weight="bold">🌐 预览模式</text>
+  <text x="190" y="280" text-anchor="middle" fill="#4A5568" font-size="11">浏览器直接打开</text>
+  <text x="190" y="296" text-anchor="middle" fill="#4A5568" font-size="11">就是动态演示页面</text>
+
+  <!-- Right branch: Render -->
+  <line x1="400" y1="210" x2="610" y2="230" stroke="#5B8DEF" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <polygon points="612,228 622,235 612,242" fill="#F56565"/>
+  <rect x="500" y="232" width="220" height="70" rx="10" fill="#fff" stroke="#F56565" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="610" y="260" text-anchor="middle" fill="#F56565" font-size="14" font-weight="bold">🎬 渲染模式</text>
+  <text x="610" y="280" text-anchor="middle" fill="#4A5568" font-size="11">逐帧捕捉画面</text>
+  <text x="610" y="296" text-anchor="middle" fill="#4A5568" font-size="11">输出 MP4 视频</text>
+</svg>
